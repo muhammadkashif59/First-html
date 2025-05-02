@@ -1,0 +1,12 @@
+body{
+    color: black;
+    border: 2px dotted;
+    background-color:yellow;
+}
+.hi {
+    color: #000;
+    background-color: red;
+    margin-right: auto;
+    margin-left: 0%;
+
+}

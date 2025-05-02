@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kashif</title>
+        <link rel="stylesheet"
+        href="form2.css">
+    </head>
+    <body>
+
+        <form action="">
+            <legend>login</legend>
+            <label>NAME</label>
+            <input type=""placeholder="ENTER YOUR NAME " min="6" max="7"><br>
+            <label>password</label>
+            <input type="password" placeholder="ENTER YOUR PASSWORD"><br>
+            <label id="s"><input type="radio" name="gender" value="male">male</label>
+            <label id="k"><input type="radio" name="gender" value="female">female</label><br>
+
+            <button>login</button>
+        </form>
+        <footer><h1> please enter your correct pass<br>please enter your correct number<br>i like your behave</h1></footer>
+        <button onclick="log()">sim</button>
+<div id="singupform" class="hidden">
+    <form id="t">
+        <label>user</label>
+        <input type="text"
+        id="username" name="username">
+    </form>
+    <button onclick="hidesingup()">closed
+
+    </button>
+</div>
+        
+        <script>
+            function log()
+            {
+                document.getElementById("singupform")
+                .className="visible";
+                
+            }
+            function hidesingupform(){
+                document.getElementById("singupform").className="hidden";
+
+            }
+
+        </script>
+    </body>
+</html>

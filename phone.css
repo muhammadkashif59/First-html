@@ -1,0 +1,31 @@
+body{
+    background-color:yellowgreen;
+    border: 0px 0px 5px 0px solid;
+    border-radius: 2px;
+    border-color: aquamarine;
+    transform-style: preserve-3d;
+    animation:rotate 15s infinite linear;
+
+
+}
+#t{
+    background-color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+    font-style: normal;
+    text-decoration-color: blue;
+
+}
+#y{
+    background-color: blueviolet;
+    border: 3px solid;
+
+
+}
+#r{
+    background-color: aqua;
+    border: 4px solid;
+    text-align: left;
+
+}

@@ -1,0 +1,76 @@
+body{
+background-image:linear-gradient(yellow,gold,blue,red);
+    margin: 50px;
+}
+form{
+    background-color: rgb(226, 147, 43);
+    
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    
+}
+input{
+    border: 2px solid;
+    border-radius: 2px ;
+    border-color: blue;
+    font: 1em sans-serif;
+    overflow: hidden;
+}
+button{
+    background-color: yellowgreen;
+    height: 30px;
+    width: 60px;
+    border:5px solid;
+    border-radius: 5px;
+    border-color: blue;
+    margin: 20px;
+    font-size: medium;
+    font-style: inherit;
+    box-shadow: 5px 5px 5px gray;
+}
+footer:hover{
+    background-image: -moz-linear-gradient(red,blueviolet,black,gold);
+    font-family:sans-serif;
+text-align: center;
+line-height: 100px;
+transition-duration: 2s;
+transition: all;
+font-size: larger;
+font-weight: bolder;
+h1{
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h1::first-line{
+    background-color:red;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+}
+#k{
+    color:red;
+    background-color: blue;
+    cursor: auto;
+    height: 20px;
+    width: 20px;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: underline yellow;
+    text-transform: uppercase;
+    text-align: left;
+    
+    
+}
+#s{
+    background-color: aqua;
+    text-transform: uppercase;
+    font-size: medium;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Heading Color</title>
+    <!--style>
+        /* Initial heading style */
+        h1 {
+            color: black;
+        }
+        
+        /* Initial button style */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>/*-->
+</head>
+<body>
+
+    <!-- Heading element -->
+    <h1 id="myHeading">Hello, World!</h1>
+
+    <!-- Button element -->
+    <button id="myButton" onclick="changeColor()">Click Me!</button>
+
+    <script>
+        function changeColor() {
+            // Get the heading element
+            var heading = document.getElementById("myHeading");
+
+            // Change the heading's text color when clicked
+            heading.style.color = "purple";  // Change this to any color you like
+        }
+    </script>
+
+</body>
+</html>

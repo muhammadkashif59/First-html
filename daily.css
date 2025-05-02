@@ -1,0 +1,127 @@
+body,html{
+background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+
+
+head{
+    background-image: url("new.jpeg");
+    text-align: center;
+    border-bottom: 5px solid blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url("WIN_20240814_06_02_23_Pro.jpg");
+    color: blueviolet;
+    align-items: center;
+    text-align: center;
+    border: 5px solid yellowgreen;
+    font-size: larger;
+    text-decoration: underline yellow;
+    text-transform: uppercase;
+    word-spacing: 50px;
+    width:100%;
+    height:30px;
+    padding: 20px;
+    align-items: justify;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: row-reverse;
+
+}
+nav:hover{
+    background-color: chartreuse;
+    border: 8px solid red;
+    background-image: linear-gradient(white,orange,yellow,gold,blue);
+    
+
+}
+#f{
+    background-color: brown;
+    border: 5px solid yellow;
+    border-radius: 2px;
+}
+#f:hover{
+    background-color: gold;
+    border: 10px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(red,yellow,green,white);
+    transform: translateX(500px);
+}
+#s{
+    background-color:white;
+    border: 5px solid burlywood;
+    border-radius: 3px;
+}
+#s:hover{
+    background-color: rgb(0, 255, 102);
+    border: 10px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(white,orange,blue,white);
+    transform: translateX(500px);
+}
+#t{
+    background-color: aquamarine;
+    border:5px solid tomato ;
+}
+#t:hover{
+    background-color: gold;
+    border: 10px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(red,yellow,green,white);
+    transform: translateX(500px);
+    transition: all;
+    transition-duration: 10s;
+    filter: blur(5px);
+    filter: brightness(80%);
+    filter: contrast(200px);
+}
+li{
+    display: inline;
+}
+
+#t{
+    box-sizing: border-box;
+}
+#l{
+    float: left;
+    background-color: yellowgreen;
+    width: 25%;
+    border: 5px solid red;
+    overflow: scroll;
+    height: 500px;
+}
+#c{
+    float: left;
+    background-color: yellowgreen;
+    width: 45%;
+    height: 500px;
+    border: 5px solid black;
+    overflow: scroll;
+}
+#r{
+    background-color: blue;
+    border: 5px solid gold;
+    float: right;
+    width: 25%;
+    height: 500px;
+}
+img{
+    clip-path: circle(40% at 50% 50%);
+}
